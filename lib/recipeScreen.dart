@@ -45,12 +45,12 @@ class RecipeScreen extends StatelessWidget {
                     Container(
                         padding: const EdgeInsets.only(bottom: 8),
                         child: Text(recipe.title,
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,
                             ))),
                       Text(recipe.user,
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.deepOrangeAccent,
                           fontFamily: 'RaleWay',
                         )),
